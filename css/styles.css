@@ -88,8 +88,7 @@ body {
   color: var(--color-primary-brand);
   text-decoration: none;
   margin-right: 76px;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
+  padding: 24px 0;
 }
 
 .menu {
@@ -149,14 +148,14 @@ body {
   gap: 40px;
 }
 
+.filters-list {
+  color: var(--color-primary-brand);
+  margin-bottom: 72px;
+}
+
 .link-address:hover,
 .link-address:focus {
   color: var(--color-pressed-state);
-}
-font-family: "Raleway", sans-serif;
-
-.filters-list {
-  color: var(--color-primary-brand);
 }
 
 .filter-button {
@@ -170,7 +169,7 @@ font-family: "Raleway", sans-serif;
   letter-spacing: 0.04em;
   display: flex;
   padding: 12px 24px;
-  align-items: center;
+  align-items: flex-start;
   border-radius: 4px;
   border: 1px solid #e7e9fc;
 }
@@ -186,7 +185,6 @@ font-family: "Raleway", sans-serif;
 
 .button-list {
   margin-right: 24px;
-  margin-bottom: 72px;
 }
 
 .button-list:last-child {
